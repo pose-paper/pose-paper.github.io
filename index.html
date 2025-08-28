@@ -1039,7 +1039,7 @@
 <body>
     <section id="intro" style="min-width: 100%;min-height: 100%;">
         <video id="teaser-video" muted autoplay loop playsinline preload="auto">
-            <source src="./assets/teaser_compressed/teaser.mp4" type="video/mp4">
+            <source src="./assets/teaser/teaser.mp4" type="video/mp4">
         </video>
         <script>
             document.getElementById('teaser-video').playbackRate = 1.5;
@@ -1048,8 +1048,48 @@
         <div class="content" style="font-family: 'NormalBold';">
             <h1><strong><strong>POSE</strong></strong></h1>
             <h2><strong><strong>Phased One-Step Adversarial Equlibrium for Video Diffusion Models</strong></strong></h2>
-            To meet the appendix file size requirement (≤50MB), we compressed all the videos by a factor of 15, which may result in some loss of video clarity.
+            <div class="authors-info" style="color: white; font-family: Tencent, sans-serif; text-align: center; max-width: 100%; margin: 0 auto;">
+            <!-- <div class="authors-info" style="color: white; text-align: center; max-width: 100%; margin: 0 auto;"></div> -->
+                <!-- 作者行1 -->
+                <div class="author-row" style="margin-bottom: 10px;font-family: 'TencentBold';font-size: 1.1em;">
+                    <span class="author" style="margin-right: 15px;">Jiaxiang Cheng<sup style="font-size: 0.9em;">1</sup></span>
+                    <span class="author" style="margin-right: 15px;">Bing Ma<sup style="font-size: 0.9em;">1</sup></span>
+                    <span class="author" style="margin-right: 15px;">Xuhua Ren<sup style="font-size: 0.9em;">1*</sup></span>
+                    <span class="author" style="margin-right: 15px;">Hongyi Jin<sup style="font-size: 0.9em;">1,2</sup></span>
+                    <span class="author">Kai Yu<sup style="font-size: 1em;">1</sup></span>
+                </div>
+                
+                <!-- 作者行2 -->
+                <div class="author-row" style="margin-bottom: 10px;font-family: 'TencentBold';font-size: 1.1em;">
+                    <span class="author" style="margin-right: 15px;">Peng Zhang<sup style="font-size: 0.9em;">1</sup></span>
+                    <span class="author" style="margin-right: 15px;">Wenyue Li<sup style="font-size: 0.9em;">1</sup></span>
+                    <span class="author" style="margin-right: 15px;">Yuan Zhou<sup style="font-size: 0.9em;">1</sup></span>
+                    <span class="author" style="margin-right: 15px;">Tianxiang Zheng<sup style="font-size: 0.9em;">1</sup></span>
+                    <span class="author">Qinglin Lu<sup style="font-size: 1em;">1*</sup></span>
+                    <!-- <span class="author">Qinglin Lu<sup style="font-size: 1em;">1†</sup></span> -->
+                </div>
+                
+                <!-- 机构信息 -->
+                <div class="institutions" style="font-size: 0.8em; line-height: 1.6; margin-bottom: 8px;font-family: 'TencentBold';">
+                    <span class="author" style="margin-right: 30px;">1 Tencent Hunyuan</span>
+                    <span class="author">2 Computer Science Department, UCLA</span>
+                </div>
+                <div class="institutions" style="font-size: 0.8em; line-height: 1.6; margin-bottom: 15px;font-family: 'TencentBold';">
+                    <span class="author" style="margin-right: 30px;">* Corresponding author</span>
+                    <!-- <span class="author" style="margin-right: 30px;">* Equal Contribution</span> -->
+                    <!-- <span class="author">† Corresponding author</span> -->
+                    <!-- <span class="author">§ Work is done during the internship at Tencent Hunyuan</span> -->
+                </div>
+                
+            </div>
+
+            <a class="button" href="http" target="_blank" rel="noopener noreferrer">
+                <i class="ai ai-arxiv" style="font-size:17px"></i>
+                Paper
+            </a>
         </div>
+                
+        
     </section>
 
     <section id="abstract">
@@ -1108,27 +1148,27 @@
             </div>
             <div class="flex flex-dynamic">
                 <div class="prompt-wrap full-screen-wrap" style="position: relative;">
-                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/main/human/油画风格_1280x720_3.mp4" type="video/mp4"></video>
+                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose/main/human/油画风格_1280x720_3.mp4" type="video/mp4"></video>
                     <div class="prompt">A regal woman adorned in an elaborate black gown with intricate gold embroidery and a vibrant red sleeve stands gracefully in a grand room. Her attire is complemented by a golden crown embellished with jewels and red roses, along with a matching necklace and earrings. The background features ornate curtains and framed artwork, adding to the opulent setting. The subject remains still, exuding an air of elegance and authority. The camera slowly pans around her, capturing the detailed craftsmanship of her clothing and the luxurious surroundings, while maintaining a steady focus on her as she stands poised and composed.</div>
                 </div>
                 <div class="prompt-wrap full-screen-wrap" style="position: relative;">
-                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/main/human/皮克斯风格_01.mp4" type="video/mp4" ></video>
+                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose/main/human/皮克斯风格_01.mp4" type="video/mp4" ></video>
                     <div class="prompt">A cheerful young girl with brown hair adorned with a yellow flower clip stands amidst a vibrant field of wildflowers, her eyes sparkling with joy as she smiles warmly at the camera. Her hair gently sways in the breeze, adding a sense of movement to the scene. The camera pans slowly from left to right, capturing the girl's delighted expression and the colorful array of flowers around her, creating a dynamic and engaging visual experience.</div>
                 </div>
                 <div class="prompt-wrap full-screen-wrap" style="position: relative;">
-                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/main/human/梵高风格_1280x720_10.mp4" type="video/mp4"></video>
+                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose/main/human/梵高风格_1280x720_10.mp4" type="video/mp4"></video>
                     <div class="prompt">A woman with vibrant red hair and striking green eyes, wearing a wide-brimmed straw hat and a denim jacket, stands against a bright yellow background. Her expression is contemplative as she gazes off to the side. The camera slowly pans around her, capturing her from different angles while maintaining a steady focus on her face and upper body, highlighting the texture of her hair and the details of her attire.</div>
                 </div>
                 <div class="prompt-wrap full-screen-wrap" style="position: relative;">
-                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/main/human/现实主义风格_1280x720_1.mp4" type="video/mp4"></video>
+                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose/main/human/现实主义风格_1280x720_1.mp4" type="video/mp4"></video>
                     <div class="prompt">The subject is a young woman with long, wavy blonde hair and freckles on her face, gazing directly at the camera with a serene expression. She remains still throughout the sequence, maintaining eye contact with the viewer. The camera moves smoothly from left to right, capturing her from a slightly low angle, emphasizing her facial features and the texture of her hair. The background is softly blurred, keeping the focus on the subject.</div>
                 </div>
                 <div class="prompt-wrap full-screen-wrap" style="position: relative;">
-                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/main/human/现实主义风格_1280x720_9.mp4" type="video/mp4"></video>
+                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose/main/human/现实主义风格_1280x720_9.mp4" type="video/mp4"></video>
                     <div class="prompt">A newborn baby is peacefully sleeping on its side, nestled on a soft, textured white blanket. The baby's head is slightly tilted, and its eyes are closed, conveying a sense of tranquility. The baby's skin is smooth and fair, and its tiny hands rest gently on its chest. The camera slowly pans from left to right, capturing the serene expression of the sleeping baby while maintaining a steady focus on the subject. The background remains softly blurred, ensuring that the viewer's attention stays on the baby.</div>
                 </div>
                 <div class="prompt-wrap full-screen-wrap" style="position: relative;">
-                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/main/human/油画风格_1280x720_10.mp4" type="video/mp4"></video>
+                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose/main/human/油画风格_1280x720_10.mp4" type="video/mp4"></video>
                     <div class="prompt">A quartet of musicians dressed in formal black suits are seated in a warmly lit room, each playing their respective instruments: violins, viola, and cello. The violinists are positioned on the left side, with one holding an open music book while the other plays from memory. The cellist sits on the right, deeply focused on his instrument. The camera pans slowly from left to right, capturing the intricate movements of each musician as they perform. The background features a framed portrait of a man playing a flute, adding an artistic touch to the scene, with soft candlelight illuminating the room, creating a serene and intimate atmosphere.</div>
                 </div>
             </div>
@@ -1141,27 +1181,27 @@
             </div>
             <div class="flex flex-dynamic">
                 <div class="prompt-wrap full-screen-wrap" style="position: relative;">
-                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/main/scene/梵高风格_1280x720_7.mp4" type="video/mp4"></video>
+                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose/main/scene/梵高风格_1280x720_7.mp4" type="video/mp4"></video>
                     <div class="prompt">The scene depicts a vibrant street at dusk, illuminated by warm streetlights and glowing shop windows, creating a lively and inviting atmosphere. The main subject is a person walking down the street, moving from left to right, their figure slightly blurred as they move, suggesting a steady pace. The camera follows the subject smoothly, maintaining a consistent distance, panning slightly to the right to keep the subject centered as they walk deeper into the street. The background features a mix of colorful buildings, a church steeple, and a bright, swirling sun in the sky, adding depth and a sense of movement to the scene.</div>
                 </div>
                 <div class="prompt-wrap full-screen-wrap" style="position: relative;">
-                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/main/scene/水彩画风格_1280x720_7.mp4" type="video/mp4"></video>
+                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose/main/scene/水彩画风格_1280x720_7.mp4" type="video/mp4"></video>
                     <div class="prompt">The scene captures a serene rainy day on a city street lined with colorful umbrellas and potted flowers, creating a vibrant contrast against the wet pavement. The umbrellas, ranging from red to yellow and blue, are open, providing shade to the wooden benches beneath them. The buildings on either side of the street are tall and historic, with ornate facades and balconies. The camera pans slowly from left to right, capturing the tranquil atmosphere as raindrops fall gently onto the ground, reflecting the colors of the umbrellas. The distant church steeple looms in the background, adding depth to the scene.</div>
                 </div>
                 <div class="prompt-wrap full-screen-wrap" style="position: relative;">
-                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/main/scene/现实主义风格_1280x720_8.mp4" type="video/mp4"></video>
+                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose/main/scene/现实主义风格_1280x720_8.mp4" type="video/mp4"></video>
                     <div class="prompt">The serene winter forest scene features tall evergreen trees heavily laden with snow, creating a picturesque and tranquil atmosphere. The sun, positioned low on the horizon, casts a warm, golden glow through the branches, illuminating the snow-covered landscape. A narrow, snow-dusted path winds through the center of the frame, leading the viewer's eye deeper into the forest. The subject, the snow-covered trees, remain stationary as the camera moves smoothly forward along the path, capturing the beauty of the winter scene from a slightly elevated angle, providing a comprehensive view of the forest's majesty and the interplay of light and shadow.</div>
                 </div>
                 <div class="prompt-wrap full-screen-wrap" style="position: relative;">
-                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/main/scene/梵高风格_1280x720_9.mp4" type="video/mp4"></video>
+                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose/main/scene/梵高风格_1280x720_9.mp4" type="video/mp4"></video>
                     <div class="prompt">A wooden sailboat gently drifts on a calm river under a vibrant sunset sky, its sails unfurled and catching the last rays of sunlight. The boat moves slowly forward, creating ripples in the water as it glides through the tranquil scene. The camera pans smoothly from left to right, following the boat's journey across the river, capturing the serene beauty of the landscape and the warm hues of the sky.</div>
                 </div>
                 <div class="prompt-wrap full-screen-wrap" style="position: relative;">
-                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/main/scene/现实主义风格_1280x720_2.mp4" type="video/mp4"></video>
+                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose/main/scene/现实主义风格_1280x720_2.mp4" type="video/mp4"></video>
                     <div class="prompt">The scene captures a bustling city street at dusk, illuminated by the warm glow of streetlights and storefronts. The wet pavement reflects the lights, creating a vibrant and dynamic atmosphere. Pedestrians walk along the sidewalks, some in groups, others alone, while cars drive down the street, their headlights piercing through the dimming sky. The buildings on either side are lined with shops and cafes, their signs glowing brightly against the darkening backdrop. The camera pans slowly from left to right, following the flow of people and vehicles, providing a comprehensive view of the lively urban environment.</div>
                 </div>
                 <div class="prompt-wrap full-screen-wrap" style="position: relative;">
-                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/main/scene/现实主义风格_1280x720_7.mp4" type="video/mp4"></video>
+                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose/main/scene/现实主义风格_1280x720_7.mp4" type="video/mp4"></video>
                     <div class="prompt">The scene captures a rainy evening on a city street viewed through a window with raindrops streaming down. The buildings on either side of the street are bathed in the soft glow of streetlights, creating a warm contrast against the cool blue tones of the overcast sky. The camera remains stationary, focusing on the wet pavement reflecting the lights from the cars and street lamps, while the raindrops on the window add a dynamic element to the otherwise still scene.</div>
                 </div>
             </div>
@@ -1174,28 +1214,28 @@
             </div>
             <div class="flex flex-dynamic">
                 <div class="prompt-wrap full-screen-wrap" style="position: relative;">
-                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/main/animal/动态_1280x720_8.mp4" type="video/mp4"></video>
+                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose/main/animal/动态_1280x720_8.mp4" type="video/mp4"></video>
                     <div class="prompt">A curious golden puppy and an energetic orange kitten are running towards the camera on a carpeted floor scattered with colorful balls and treats. The puppy, with its ears flopping slightly, leads the way, while the kitten follows closely behind, its tail swishing. The camera moves forward smoothly, maintaining a steady focus on the animals as they approach, capturing their playful energy and the warm, sunlit room around them.</div>
                 </div>
                 <div class="prompt-wrap full-screen-wrap" style="position: relative;">
-                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/main/animal/水彩画风格_1280x720_4.mp4" type="video/mp4"></video>
+                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose/main/animal/水彩画风格_1280x720_4.mp4" type="video/mp4"></video>
                     <div class="prompt">A playful orange and white kitten with striking green eyes is captured mid-stride as it chases a red ball of yarn across a light beige background. The kitten's fur is soft and fluffy, with white paws and a white chest contrasting against its orange and white striped body. Its tail is raised high, indicating excitement and energy. The kitten's mouth is slightly open, suggesting it might be meowing or reacting to the yarn. The camera follows the kitten smoothly from left to right, maintaining a steady focus on the kitten while the yarn trails behind, creating a dynamic sense of motion. The background remains softly blurred, emphasizing the kitten's playful action.</div>
                 </div>
                 <div class="prompt-wrap full-screen-wrap" style="position: relative;">
-                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/main/animal/水墨画风格_1280x720_9.mp4" type="video/mp4"></video>
+                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose/main/animal/水墨画风格_1280x720_9.mp4" type="video/mp4"></video>
                     <div class="prompt">A powerful black horse gallops across a sandy terrain, its mane and tail flowing wildly behind it as it moves at full speed. The horse's muscles ripple under its sleek coat, and dust rises from the ground beneath its hooves. The camera follows the horse closely, panning smoothly to keep it centered as it races forward, capturing the dynamic energy and grace of the animal in motion.</div>
                 </div>
                 <div class="prompt-wrap full-screen-wrap" style="position: relative;">
-                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/main/animal/水彩画风格_1280x720_5.mp4" type="video/mp4"></video>
+                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose/main/animal/水彩画风格_1280x720_5.mp4" type="video/mp4"></video>
                     <div class="prompt">A vibrant red and white koi fish gracefully swims towards the right side of the frame, its scales shimmering under the water's surface. The camera follows the fish smoothly, maintaining a steady focus as it moves through the tranquil pond adorned with floating lily pads and delicate pink lotus flowers. The lush green foliage surrounding the pond adds depth and tranquility to the scene, creating a serene and picturesque environment.</div>
                 </div>
                 <div class="prompt-wrap full-screen-wrap" style="position: relative;">
-                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/main/animal/赛博朋克风格_1280x720_10.mp4" type="video/mp4"></video>
+                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose/main/animal/赛博朋克风格_1280x720_10.mp4" type="video/mp4"></video>
                     <div class="prompt">A vibrant red fox with a bushy tail and white underbelly is captured mid-stride on a forest path, its ears perked up as it moves forward with purpose. The camera follows the fox from behind, maintaining a steady pace to keep the animal centered in the frame, smoothly panning to the right as the fox continues along the path, showcasing the lush greenery and scattered rocks around it.</div>
                 </div>
                 
                 <div class="prompt-wrap full-screen-wrap" style="position: relative;">
-                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/main/animal/现实主义风格_1280x720_6.mp4" type="video/mp4"></video>
+                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose/main/animal/现实主义风格_1280x720_6.mp4" type="video/mp4"></video>
                     <div class="prompt">A majestic tiger, its vibrant orange fur adorned with bold black stripes, stands amidst lush green foliage, its piercing yellow eyes fixed directly on the camera. The tiger's mouth is slightly open, revealing sharp teeth, as it appears to be mid-roar, exuding an aura of power and dominance. The camera, positioned at a low angle, slowly pans upwards and to the right, following the tiger's gaze, while simultaneously zooming in slightly to capture the intricate details of its face and the surrounding dense forest environment.</div>
                 </div>
             </div>
@@ -1206,15 +1246,15 @@
 
             <div class="flex flex-dynamic">
                 <div class="prompt-wrap full-screen-wrap" style="position: relative;">
-                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/main/object/现实主义风格_1280x720_5.mp4" type="video/mp4"></video>
+                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose/main/object/现实主义风格_1280x720_5.mp4" type="video/mp4"></video>
                     <div class="prompt">A succulent piece of grilled fish sits atop a bed of linguine pasta garnished with vibrant cherry tomatoes, fresh basil leaves, and a sprinkle of red pepper flakes, all arranged on a light green plate with a brown rim. The camera pans slowly from left to right, capturing the glistening surface of the fish and the colorful, appetizing toppings, while the plate remains stationary, emphasizing the textures and colors of the dish.</div>
                 </div>
                 <div class="prompt-wrap full-screen-wrap" style="position: relative;">
-                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/main/object/皮克斯风格_1280x720_10.mp4" type="video/mp4"></video>
+                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose/main/object/皮克斯风格_1280x720_10.mp4" type="video/mp4"></video>
                     <div class="prompt">The cheerful snowman, Olaf from Frozen, stands upright on a snowy landscape, his carrot nose and stick arms slightly swaying as he looks around with a joyful expression. The camera pans slowly to the right, capturing the serene winter scene with snow-covered trees and falling snowflakes, while maintaining focus on Olaf, who continues to smile warmly at the viewer.</div>
                 </div>
                 <div class="prompt-wrap full-screen-wrap" style="position: relative;">
-                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/main/object/现实主义风格_1280x720_10.mp4" type="video/mp4"></video>
+                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose/main/object/现实主义风格_1280x720_10.mp4" type="video/mp4"></video>
                     <div class="prompt">A sleek red sports car, likely a high-performance model, is captured in motion on a winding mountain road during sunset. The car's headlights are on, illuminating the road ahead as it speeds along, its tires leaving a slight blur due to the high speed. The background features a picturesque landscape with rolling hills, lush greenery, and distant mountains silhouetted against the setting sun. The sky is a gradient of warm hues, transitioning from orange near the horizon to a softer blue higher up. The camera follows the car from a slightly elevated angle, maintaining a steady focus on the vehicle while smoothly panning to keep it centered as it moves through the frame, creating a dynamic sense of speed and motion.</div>
                 </div>
             </div>
@@ -1239,32 +1279,32 @@
                 <!-- Group I -->
                  Prompt: A quartet of musicians dressed in formal black suits are seated in a warmly lit room, each playing their respective instruments: violins, viola, and cello. The violinists are positioned on the left side, with one holding an open music book while the other plays from memory. The cellist sits on the right, deeply focused on his instrument. The camera pans slowly from left to right, capturing the intricate movements of each musician as they perform. The background features a framed portrait of a man playing a flute, adding an artistic touch to the scene, with soft candlelight illuminating the room, creating a serene and intimate atmosphere.
                 <div class="prompt-wrap full-screen-wrap" style="position: relative;">
-                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/comparable/油画风格_1280x720_10_base80.mp4" type="video/mp4"></video>
+                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose/comparable/油画风格_1280x720_10_base80.mp4" type="video/mp4"></video>
                     <div class="prompt"></div>
                 </div>
                 <div class="prompt-wrap full-screen-wrap" style="position: relative;">
-                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/comparable/油画风格_1280x720_10_base2.mp4" type="video/mp4"></video>
+                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose/comparable/油画风格_1280x720_10_base2.mp4" type="video/mp4"></video>
                     <div class="prompt"></div>
                 </div>
                 <div class="prompt-wrap full-screen-wrap" style="position: relative;">
-                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/comparable/油画风格_1280x720_10_pose1.mp4" type="video/mp4"></video>
+                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose/comparable/油画风格_1280x720_10_pose1.mp4" type="video/mp4"></video>
                     <div class="prompt"></div>
                 </div>
                 
                 <!-- Group II -->
                  Prompt: A regal woman adorned in an elaborate black gown with intricate gold embroidery and a vibrant red sleeve stands gracefully in a grand room. Her attire is complemented by a golden crown embellished with jewels and red roses, along with a matching necklace and earrings. The background features ornate curtains and framed artwork, adding to the opulent setting. The subject remains still, exuding an air of elegance and authority. The camera slowly pans around her, capturing the detailed craftsmanship of her clothing and the luxurious surroundings, while maintaining a steady focus on her as she stands poised and composed.
                 <div class="prompt-wrap full-screen-wrap" style="position: relative;">
-                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/comparable/油画风格_1280x720_3_base80.mp4" type="video/mp4"></video>
+                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose/comparable/油画风格_1280x720_3_base80.mp4" type="video/mp4"></video>
                     <div class="prompt"></div>
                     <div class="method-label">WanI2V-100NFE, Guidance Sclae=6</div>
                 </div>
                 <div class="prompt-wrap full-screen-wrap" style="position: relative;">
-                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/comparable/油画风格_1280x720_3_base2.mp4" type="video/mp4"></video>
+                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose/comparable/油画风格_1280x720_3_base2.mp4" type="video/mp4"></video>
                     <div class="prompt"></div>
                     <div class="method-label">WanI2V-2NFE, Guidance Sclae=6</div>
                 </div>
                 <div class="prompt-wrap full-screen-wrap" style="position: relative;">
-                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/comparable/油画风格_1280x720_3_pose_1.mp4" type="video/mp4"></video>
+                    <video id="interactive_1" muted autoplay loop playsinline><source src="./assets/videos_pose/comparable/油画风格_1280x720_3_pose_1.mp4" type="video/mp4"></video>
                     <div class="prompt"></div>
                     <div class="method-label">POSE-1NFE, Guidance Sclae=1</div>
                 </div>
@@ -1287,32 +1327,32 @@
                         <!-- Group 3 (First 6 videos) -->
                         <div class="slider-group active">
                             <div class="prompt-wrap full-screen-wrap">
-                                <video muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/distillation_comparable/现实主义风格_1280x720_7_pose1.mp4" type="video/mp4"></video>
+                                <video muted autoplay loop playsinline><source src="./assets/videos_pose/distillation_comparable/现实主义风格_1280x720_7_pose1.mp4" type="video/mp4"></video>
                                 <div class="prompt"></div>
                                 <div class="method-label">POSE-1NFE (Ours)</div>
                             </div>
                             <div class="prompt-wrap full-screen-wrap">
-                                <video muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/distillation_comparable/现实主义风格_1280x720_7_add1.mp4" type="video/mp4"></video>
+                                <video muted autoplay loop playsinline><source src="./assets/videos_pose/distillation_comparable/现实主义风格_1280x720_7_add1.mp4" type="video/mp4"></video>
                                 <div class="prompt"></div>
                                 <div class="method-label">ADD-1NFE</div>
                             </div>
                             <div class="prompt-wrap full-screen-wrap">
-                                <video muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/distillation_comparable/现实主义风格_1280x720_7_apt1.mp4" type="video/mp4"></video>
+                                <video muted autoplay loop playsinline><source src="./assets/videos_pose/distillation_comparable/现实主义风格_1280x720_7_apt1.mp4" type="video/mp4"></video>
                                 <div class="prompt"></div>
                                 <div class="method-label">APT-1NFE</div>
                             </div>
                             <div class="prompt-wrap full-screen-wrap">
-                                <video muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/distillation_comparable/现实主义风格_1280x720_7_pcm1.mp4" type="video/mp4"></video>
+                                <video muted autoplay loop playsinline><source src="./assets/videos_pose/distillation_comparable/现实主义风格_1280x720_7_pcm1.mp4" type="video/mp4"></video>
                                 <div class="prompt"></div>
                                 <div class="method-label">PCM-1NFE</div>
                             </div>
                             <div class="prompt-wrap full-screen-wrap">
-                                <video muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/distillation_comparable/现实主义风格_1280x720_7_dmd1.mp4" type="video/mp4"></video>
+                                <video muted autoplay loop playsinline><source src="./assets/videos_pose/distillation_comparable/现实主义风格_1280x720_7_dmd1.mp4" type="video/mp4"></video>
                                 <div class="prompt"></div>
                                 <div class="method-label">DMD2-1NFE</div>
                             </div>
                             <div class="prompt-wrap full-screen-wrap">
-                                <video muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/distillation_comparable/现实主义风格_1280x720_7_md1.mp4" type="video/mp4"></video>
+                                <video muted autoplay loop playsinline><source src="./assets/videos_pose/distillation_comparable/现实主义风格_1280x720_7_md1.mp4" type="video/mp4"></video>
                                 <div class="prompt"></div>
                                 <div class="method-label">MagicDistillation-1NFE</div>
                             </div>
@@ -1320,32 +1360,32 @@
                         <!-- Group 1 (First 6 videos) -->
                         <div class="slider-group active">
                             <div class="prompt-wrap full-screen-wrap">
-                                <video muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/distillation_comparable/皮克斯风格_1280x720_7_pose1.mp4" type="video/mp4"></video>
+                                <video muted autoplay loop playsinline><source src="./assets/videos_pose/distillation_comparable/皮克斯风格_1280x720_7_pose1.mp4" type="video/mp4"></video>
                                 <div class="prompt"></div>
                                 <div class="method-label">POSE-1NFE (Ours)</div>
                             </div>
                             <div class="prompt-wrap full-screen-wrap">
-                                <video muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/distillation_comparable/皮克斯风格_1280x720_7_add1.mp4" type="video/mp4"></video>
+                                <video muted autoplay loop playsinline><source src="./assets/videos_pose/distillation_comparable/皮克斯风格_1280x720_7_add1.mp4" type="video/mp4"></video>
                                 <div class="prompt"></div>
                                 <div class="method-label">ADD-1NFE</div>
                             </div>
                             <div class="prompt-wrap full-screen-wrap">
-                                <video muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/distillation_comparable/皮克斯风格_1280x720_7_apt1.mp4" type="video/mp4"></video>
+                                <video muted autoplay loop playsinline><source src="./assets/videos_pose/distillation_comparable/皮克斯风格_1280x720_7_apt1.mp4" type="video/mp4"></video>
                                 <div class="prompt"></div>
                                 <div class="method-label">APT-1NFE</div>
                             </div>
                             <div class="prompt-wrap full-screen-wrap">
-                                <video muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/distillation_comparable/皮克斯风格_1280x720_7_pcm1.mp4" type="video/mp4"></video>
+                                <video muted autoplay loop playsinline><source src="./assets/videos_pose/distillation_comparable/皮克斯风格_1280x720_7_pcm1.mp4" type="video/mp4"></video>
                                 <div class="prompt"></div>
                                 <div class="method-label">PCM-1NFE</div>
                             </div>
                             <div class="prompt-wrap full-screen-wrap">
-                                <video muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/distillation_comparable/皮克斯风格_1280x720_7_dmd1.mp4" type="video/mp4"></video>
+                                <video muted autoplay loop playsinline><source src="./assets/videos_pose/distillation_comparable/皮克斯风格_1280x720_7_dmd1.mp4" type="video/mp4"></video>
                                 <div class="prompt"></div>
                                 <div class="method-label">DMD2-1NFE</div>
                             </div>
                             <div class="prompt-wrap full-screen-wrap">
-                                <video muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/distillation_comparable/皮克斯风格_1280x720_7_md1.mp4" type="video/mp4"></video>
+                                <video muted autoplay loop playsinline><source src="./assets/videos_pose/distillation_comparable/皮克斯风格_1280x720_7_md1.mp4" type="video/mp4"></video>
                                 <div class="prompt"></div>
                                 <div class="method-label">MagicDistillation-1NFE</div>
                             </div>
@@ -1353,32 +1393,32 @@
                         <!-- Group 2 (First 6 videos) -->
                         <div class="slider-group active">
                             <div class="prompt-wrap full-screen-wrap">
-                                <video muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/distillation_comparable/现实主义风格_1280x720_6_pose1.mp4" type="video/mp4"></video>
+                                <video muted autoplay loop playsinline><source src="./assets/videos_pose/distillation_comparable/现实主义风格_1280x720_6_pose1.mp4" type="video/mp4"></video>
                                 <div class="prompt"></div>
                                 <div class="method-label">POSE-1NFE (Ours)</div>
                             </div>
                             <div class="prompt-wrap full-screen-wrap">
-                                <video muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/distillation_comparable/现实主义风格_1280x720_6_add1.mp4" type="video/mp4"></video>
+                                <video muted autoplay loop playsinline><source src="./assets/videos_pose/distillation_comparable/现实主义风格_1280x720_6_add1.mp4" type="video/mp4"></video>
                                 <div class="prompt"></div>
                                 <div class="method-label">ADD-1NFE</div>
                             </div>
                             <div class="prompt-wrap full-screen-wrap">
-                                <video muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/distillation_comparable/现实主义风格_1280x720_6_apt1.mp4" type="video/mp4"></video>
+                                <video muted autoplay loop playsinline><source src="./assets/videos_pose/distillation_comparable/现实主义风格_1280x720_6_apt1.mp4" type="video/mp4"></video>
                                 <div class="prompt"></div>
                                 <div class="method-label">APT-1NFE</div>
                             </div>
                             <div class="prompt-wrap full-screen-wrap">
-                                <video muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/distillation_comparable/现实主义风格_1280x720_6_pcm1.mp4" type="video/mp4"></video>
+                                <video muted autoplay loop playsinline><source src="./assets/videos_pose/distillation_comparable/现实主义风格_1280x720_6_pcm1.mp4" type="video/mp4"></video>
                                 <div class="prompt"></div>
                                 <div class="method-label">PCM-1NFE</div>
                             </div>
                             <div class="prompt-wrap full-screen-wrap">
-                                <video muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/distillation_comparable/现实主义风格_1280x720_6_dmd1.mp4" type="video/mp4"></video>
+                                <video muted autoplay loop playsinline><source src="./assets/videos_pose/distillation_comparable/现实主义风格_1280x720_6_dmd1.mp4" type="video/mp4"></video>
                                 <div class="prompt"></div>
                                 <div class="method-label">DMD2-1NFE</div>
                             </div>
                             <div class="prompt-wrap full-screen-wrap">
-                                <video muted autoplay loop playsinline><source src="./assets/videos_pose_compressed/distillation_comparable/现实主义风格_1280x720_6_md1.mp4" type="video/mp4"></video>
+                                <video muted autoplay loop playsinline><source src="./assets/videos_pose/distillation_comparable/现实主义风格_1280x720_6_md1.mp4" type="video/mp4"></video>
                                 <div class="prompt"></div>
                                 <div class="method-label">MagicDistillation-1NFE</div>
                             </div>
@@ -1387,6 +1427,18 @@
                 </div>
                 <button class="slider-nav next" onclick="slide(1)">❯</button>
             </div>
+        </section>
+        <section class="bibtex-section">
+            <h3>BibTeX</h3>
+            <pre class="bibtex-code">@misc{cheng2025pose,
+    title={POSE: Phased One-Step Adversarial Equlibrium for Video Diffusion Models}, 
+    author={Jiaxiang Cheng and Bing Ma and Xuhua Ren and Hongyi Jin and Kai Yu and Peng Zhang and Wenyue Li and Yuan Zhou and and Tianxiang Zheng and Qinglin Lu},
+    year={2025},
+    eprint={2506.17201},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV},
+    url={https://arxiv.org/abs/2506.17201}, 
+}</pre>
         </section>
 </body>
 
